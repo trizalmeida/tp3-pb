@@ -1,0 +1,42 @@
+body, html {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.nav-container {
+    background-color: #2E1371;
+    color: white;
+    display: flex;
+    align-items: start;
+}
+
+.nav-item {
+    margin: 10px;
+    padding: 2px;
+    transition-duration: 300ms;
+    cursor: pointer;
+}
+
+.nav-item-user {
+    flex-grow: 1;
+    justify-self: end;
+    align-self: end;
+    text-align: right;
+}
+
+.nav-item:hover {
+    background-color: #5571B5
+}
+
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    background-color: white;
+    padding: 5px;
+    color: #2E1371;
+}
